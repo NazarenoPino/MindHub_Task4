@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(74, 123, 74);
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    padding-left: 150px;
+}
+
+.anchorButton {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .anchorButton:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .anchorButton:hover {
+   background-position: 0;
+  }
+  
+  .anchorButton:hover::before {
+    width:100%;
+  }
+
+.imagenPortada{
+    width: 1400px;
+    height: 200px;
+    padding-left: 150px;
+}
+
+nav{
+    width: 300px;
+    margin-left: 1050px;
+    width: 25%;
+}
+
+section{
+    width: 1250px;
+    margin-left: 150px;
+}
+
+h3{
+    padding-left: 500px;
+}
+
+article{
+    padding-left: 270px;
+}
+
+article>p{
+    padding-left: 15px;
+    padding-right: 100px;
+    text-align: justify;
+
+}
+
+.imagenLogoIndex{
+    display: inline;
+    width: 150px;
+    position: relative;
+    bottom: 110px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.imagenLogoIndex:hover{
+    transform: scale(2) rotate(360deg);
+
+}
+
+.imagenLogoAbout{
+    display: inline;
+    width: 150px;
+    position: relative;
+    bottom: 200px;
+    transition-timing-function: step-start;
+}
+.imagenLogoAbout:hover{
+    transform: scale(2);
+
+}
+
+.imagenLogoContact{
+    display: inline;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+}
+.imagenLogoContact:hover{
+    transform: scale(2);
+
+}
+
+section>p{
+    margin-left: 250px;
+    width: 300px;
+}
+
+body{
+    background-color: rgb(18, 17, 17);
+}
+
+p, h3, h2, h4, ol, li, ul{
+    color: white;
+}
+
+.h3Rules{
+    padding:  0;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.paragraphRules{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.paragraphRules2{
+    margin: 0;
+    width: 100%;
+    padding-left: 3%;
+    text-align: left;
+    text-align: justify;
+}
+
+.sectionRules{
+    margin-bottom: 3%;
+}
+
+ol{
+    margin-left: 1%;
+}
+
+.olIndideLi{
+    list-style-type: lower-alpha;
+}
+
+.liRules{
+    margin-bottom: 2%;
+}
+
+ul{
+    list-style-type: circle;
+    margin-left: 5%;
+}
+
+
