@@ -173,6 +173,7 @@ ol{
 ul{
     list-style-type: circle;
     margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 .sectionGameInformation{
@@ -198,7 +199,11 @@ ul{
 table{
     margin: 0;
     padding: 0;
-    border: solid white 1px;
+    margin: 5% 5%;
+    width: 600px;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing:  20px ; 
 }
 
 .paragraphGameInformation3{
@@ -208,6 +213,7 @@ table{
 
 .paragraphGameInformation4{
     display: inline-block;
+    margin-bottom: 100px;
 }
 
 .paragraphGameInformation5{
@@ -216,6 +222,11 @@ table{
     margin-bottom: 1%;
 }
 
-
+.divGameInformation{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
