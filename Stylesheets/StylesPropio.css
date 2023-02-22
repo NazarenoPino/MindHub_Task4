@@ -130,7 +130,7 @@ body{
     background-color: rgb(18, 17, 17);
 }
 
-p, h3, h2, h4, ol, li, ul, th, td{
+p, h3, h2, h4, ol, li, ul, th, td, form, label{
     color: white;
 }
 
@@ -229,4 +229,30 @@ table{
     justify-content: center;
 }
 
+.h2RF{
+    text-align: center;
+    margin-bottom: 1%;
+}
 
+form{
+    text-align: center;
+}
+
+.divContainerRegistrationForm{
+    margin-bottom: 1%;
+}
+
+.pRegistrationForm{
+    margin: 0;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.h3RegistrationForm{
+    text-align: left;
+    padding: 0;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
